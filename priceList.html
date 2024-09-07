@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="div-header">
+    <header class="header_1">
+        <div class="container container_header">
+            <div class="logo">
+            <h1 class="h1_header">Добро ДЕНТ</h1>
+        </div>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="index.html">Главная</a></li>
+                    <li class="nav_item"><a href="index.html">Услуги</a></li>
+                    <li class="nav_item"><a href="index.html">Цены</a></li>
+                    <li class="nav_item"><a href="index.html">Отзывы</a></li>
+                    <li class="nav_item"><a href="index.html">Контакты</a></li>
+                    <li class="nav_item"><a href="index.html">Специалисты</a></li>
+                </ul>
+            </nav>
+            <button class="burger" onclick="burgerClick()">
+                <div class="burger__line burger__line1"></div>
+                <div class="burger__line burger__line2"></div>
+                <div class="burger__line burger__line3"></div>
+            </button>
+        </div>
+    </header>
+    <header class="header_2">
+    <div class="container container_header_2">
+                <div class="header_text_div">
+                    <div class="text_h_1">
+                <p class="header_text">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ: +7(909) 755-81-81
+                    </div>
+            </div>
+            <div class="header_list_div">
+                <ul class="header_list">
+                    <li class="header_item">
+                        <a class="header_link" href="https://vk.com/id747212948">
+                            <img src="img/вк.png" alt="" class="header_img">
+                        </a>
+                    </li>
+                    <li class="header_item">
+                        <a class="header_link" href="https://web.telegram.org/a/#-1001224624669">
+                            <img src="img/telegram-icon.png" alt="" class="header_img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container table__div">
+            <h2 class="table__title">Цены на услуги:</h2>
+            <div class="tit">
+                <p class="titles__p">КОНСУЛЬТАЦИЯ</p>
+            </div>
+            <div class="prices-items">
+            <table class="price__table">
+                <tbody class="table__body">
+                    <tr class="price-row">
+                        <td class="elem_table">
+                            <div class="line-blocks">
+                                <div class="p-i-t"><p class="prices-item-titles">Прием (осмотр, консультация) врача-стоматолога первичный</p></div>
+                                <div class="i-p"><p class="item-price">0р</p></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="price-row">
+                        <td class="elem_table">
+                            <div class="line-blocks">
+                                <div class="p-i-t"><p class="prices-item-titles">Прием (осмотр, консультация) врача-соматолога повторный</p></div>
+                                <div class="i-p"><p class="item-price">0р</p></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="price-row">
+                        <td class="elem_table">
+                            <div class="line-blocks">
+                                <div class="p-i-t"><p class="prices-item-titles">Прием (осмотр, консультация) врача стоматолога ортопеда первичный</p></div>
+                                <div class="i-p"><p class="item-price">0р</p></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="price-row">
+                        <td class="elem_table">
+                            <div class="line-blocks">
+                                <div class="p-i-t"><p class="prices-item-titles">Прием (осмотр, консультация) врача стоматолога ортопеда повторный</p></div>
+                                <div class="i-p"><p class="item-price">0р</p></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tit">
+            <p class="titles__p">РЕНТГЕНОЛОГИЯ</p>
+        </div>
+        <div class="prices-items">
+        <table class="price__table">
+            <tbody class="table__body">
+                <tr class="price-row">
+                    <td class="elem_table">
+                        <div class="line-blocks">
+                            <div class="p-i-t"><p class="prices-item-titles">Консультация ортодонта</p></div>
+                            <div class="i-p"><p class="item-price">300р</p></div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="tit">
+        <p class="titles__p">ГИГИЕНА</p>
+    </div>
+    <div class="prices-items">
+    <table class="price__table">
+        <tbody class="table__body">
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Профессиональная гигиена полости рта всех зубов</p></div>
+                        <div class="i-p"><p class="item-price">2700р</p></div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Введение лекартсвенных препаратов в пародонтальный карман</p></div>
+                        <div class="i-p"><p class="item-price">200р</p></div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Ультразвуковое удаление наддесневых и поддесневых зубных отложений в области 1 зуба</p></div>
+                        <div class="i-p"><p class="item-price">200р</p></div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Определение индексов гигиены полости рта</p></div>
+                        <div class="i-p"><p class="item-price">300р</p></div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Определение пародонтальных индексов</p></div>
+                        <div class="i-p"><p class="item-price">300р</p></div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Обучение гигиене полости рта и зубов индивидуальное, подбор средств и предметов гигиены полости рта</p></div>
+                        <div class="i-p"><p class="item-price">500р</p></div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Ультразвуковая обработка пародонтального кармана в области зуба</p></div>
+                        <div class="i-p"><p class="item-price">300р</p></div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Гидроорошение при заболевании полости рта и зубов</p></div>
+                        <div class="i-p"><p class="item-price">450р</p></div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Местное применение реминерализующих препаратов (1 зуб)</p></div>
+                        <div class="i-p"><p class="item-price">200р</p></div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="price-row">
+                <td class="elem_table">
+                    <div class="line-blocks">
+                        <div class="p-i-t"><p class="prices-item-titles">Аппликация лекарственного препарата на слизистую оболочку полости рта </p></div>
+                        <div class="i-p"><p class="item-price">300р</p></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="tit">
+    <p class="titles__p">ДОПОЛНИТЕЛЬНЫЕ МАНИПУЛЯЦИИ</p>
+</div>
+<div class="prices-items">
+<table class="price__table">
+    <tbody class="table__body">
+        <tr class="price-row">
+            <td class="elem_table">
+                <div class="line-blocks">
+                    <div class="p-i-t"><p class="prices-item-titles">Профессиональное отбеливание зубов (линиия улыбки)</p></div>
+                    <div class="i-p"><p class="item-price">9000р</p></div>
+                </div>
+            </td>
+        </tr>
+
+        <tr class="price-row">
+            <td class="elem_table">
+                <div class="line-blocks">
+                    <div class="p-i-t"><p class="prices-item-titles">Профессиональное отбеливание зубов внутрикоронковое для невитальных измененных в цвете зубов (1 зуб)</p></div>
+                    <div class="i-p"><p class="item-price">600р</p></div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+            <div class="tit">
+                <p class="titles__p">АНЕСТЕЗИЯ, ИНЪЕКЦИИ</p>
+            </div>
+            <div class="prices-items">
+                <table class="price__table">
+                    <tbody class="table__body">
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Проводниковая анестезия</p></div>
+                                    <div class="i-p"><p class="item-price">300р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Аппликационная анестезия</p></div>
+                                    <div class="i-p"><p class="item-price">100р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Инфильтрационная анестезия</p></div>
+                                    <div class="i-p"><p class="item-price">300р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Инъекционное введение лекарственных препаратов в челюстно-лицевую область:</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">-легкая степень тяжести (траумель)</p></div>
+                                    <div class="i-p"><p class="item-price">250р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">-средняя степень тяжести</p></div>
+                                    <div class="i-p"><p class="item-price">450р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tit">
+                <p class="titles__p">ТЕРАПЕВТИЧЕСКИЕ УСЛУГИ</p>
+            </div>
+            <div class="prices-items">
+                <table class="price__table">
+                    <tbody class="table__body">
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Глубокое фторирование эмали зубов (гель)</p></div>
+                                    <div class="i-p"><p class="item-price">2000р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Электроодонтометрия зуба (ЭОД)</p></div>
+                                    <div class="i-p"><p class="item-price">200р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Витальное окрашивание твердых тканей зуба (в том числе применение кариес-детектора)</p></div>
+                                    <div class="i-p"><p class="item-price">200р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Термо диагностика зуба</p></div>
+                                    <div class="i-p"><p class="item-price">200р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Сошлифовывание твердых тканей зуба</p></div>
+                                    <div class="i-p"><p class="item-price">500р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Сошлифовывание твердых тканей зуба (для последующего восстановления вкладкой, накладкой, полукоронкой, коронкой, виниром)</p></div>
+                                    <div class="i-p"><p class="item-price">1000р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Применение системы Коффердам, OptraGate</p></div>
+                                    <div class="i-p"><p class="item-price">600р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Трепанация зуба, искусственной коронки, (препарирование зуба)</p></div>
+                                    <div class="i-p"><p class="item-price">550р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Запечатывание фиссуры зуба герметиком Revolution</p></div>
+                                    <div class="i-p"><p class="item-price">1000р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Восстановление зуба пломбой:</p></div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Восстановление зуба пломбой I, II, III, V, VI класс по Блэку с использованием стоматологических цементов</p></div>
+                                    <div class="i-p"><p class="item-price">1100р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Восстановление зуба пломбой I, V, VI класс по Блэку с использованием материалов из фотополимеров (одна поверхность)</p></div>
+                                    <div class="i-p"><p class="item-price">2500р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Восстановление зуба пломбой с нарушением контактного пункта II, III класс по Блэку с использованием материалов из фотополимеров (одна поверхность)</p></div>
+                                    <div class="i-p"><p class="item-price">2500р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Восстановление зуба пломбой с нарушением контактного пункта IV класс по Блэку с использованием материалов из фотополимеров (одна поверхность)</p></div>
+                                    <div class="i-p"><p class="item-price">2500р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Восстановление зуба вкладками, виниром, полукоронкой (из фотополимерного материала прямым методом)</p></div>
+                                    <div class="i-p"><p class="item-price">3800р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Восстановление зуба коронкой прямым методом из фотополимеров</p></div>
+                                    <div class="i-p"><p class="item-price">3800р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Восстановление зуба пломбировочными материалами с использованием анкерных штифтов (стекловолоконных штифтов)</p></div>
+                                    <div class="i-p"><p class="item-price">4800р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Наложение временной пломбы:</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">-водный дентин</p></div>
+                                    <div class="i-p"><p class="item-price">300р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">-световая Clip</p></div>
+                                    <div class="i-p"><p class="item-price">500р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">-Сепно-Пак</p></div>
+                                    <div class="i-p"><p class="item-price">500р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="price-row">
+                            <td class="elem_table">
+                                <div class="line-blocks">
+                                    <div class="p-i-t"><p class="prices-item-titles">Снятие временной пломбы</p></div>
+                                    <div class="i-p"><p class="item-price">100р</p></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+</div>
+    </main>
+    <footer class="footer">
+        <div class="container container_footer">
+            <div class="proiv">
+                <p class="footer_P"></p>
+            </div>
+            <div class="footer_content">
+                <h2 class="footer_title"></h2>
+                <p class="footer_text"></p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="scripts/burger.js"></script>
+</body>
+</html>
+
+
+
+
+

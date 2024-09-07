@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="div-header">
+    <header class="header_1">
+        <div class="container container_header">
+            <div class="logo">
+            <h1 class="h1_header">Добро ДЕНТ</h1>
+        </div>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="index.html">Главная</a></li>
+                    <li class="nav_item"><a href="#yslugi">Услуги</a></li>
+                    <li class="nav_item"><a href="priceList.html">Цены</a></li>
+                    <li class="nav_item">Отзывы</li>
+                    <li class="nav_item"><a href="#contacts">Контакты</a></li>
+                    <li class="nav_item"><a href="#collectiv">Специалисты</a></li>
+                </ul>
+            </nav>
+            <button class="burger" onclick="burgerClick()">
+                <div class="burger__line burger__line1"></div>
+                <div class="burger__line burger__line2"></div>
+                <div class="burger__line burger__line3"></div>
+            </button>
+        </div>
+    </header>
+    <header class="header_2">
+    <div class="container container_header_2">
+                <div class="header_text_div">
+                    <div class="text_h_1">
+                <p class="header_text">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ: +7(909) 755-81-81
+                    </div>
+            </div>
+            <div class="header_list_div">
+                <ul class="header_list">
+                    <li class="header_item">
+                        <a class="header_link" href="https://vk.com/id747212948">
+                            <img src="img/вк.png" alt="" class="header_img">
+                        </a>
+                    </li>
+                    <li class="header_item">
+                        <a class="header_link" href="https://web.telegram.org/a/#-1001224624669">
+                            <img src="img/telegram-icon.png" alt="" class="header_img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
+    <main class="main">
+        <section class="hero-block">
+           <div class="container container_hero-block">
+            <div class="main_text_1">
+                <p class="text_section_1">Цельноциркониевая коронка на зуб - <strong class="strong">11 800 рублей</strong> и никаких доплат!</p>
+                <p class="text_section_1">Имплант + коронка - <strong class="strong">38 000 рублей</strong> и никаких доплат!</p>
+                <p class="text_section_1">У нас только опытные врачи со стажем <strong class="strong">15 и более лет!</strong></p>
+            </div>
+            <div class="hero-block_img">
+                <img src="img/Remove-bg.ai_1724790157105.png" alt="" class="main_img">
+           </div>
+                <div class="hero-block_content">
+                    <h1 class="main_h1"></h1>
+                    <p class="main_text"></p>
+                </div>
+            </div>
+        </section>
+        <section class="yslygi">
+            <div class="container container_section_2" id="yslugi">  
+               <div class="s2">
+                    <ul class="yslugi-list">
+                        <li class="yslugi-item">
+                            <div class="u_div1 u1 zoom-effect"> 
+                                <h3 class="u_zag">услуга1</h3>
+                            </div>
+                        </li>
+
+                        <li class="yslugi-item">
+                            <div class="u_div1 u2 zoom-effect"> 
+                                <h3 class="u_zag">услуга3</h3>
+                            </div>
+                        </li>
+
+                        <li class="yslugi-item">
+                            <div class="u_div1 u3 zoom-effect"> 
+                                <h3 class="u_zag">услуга1</h3>
+                            </div>
+                        </li>
+                    </ul>
+                <ul class="u_list">
+                    <li class="yslugi-item">
+                        <div class="u_div2 u4 zoom-effect"> 
+                            <h3 class="u_zag">услуга2</h3>
+                        </div>
+                    </li>
+                    
+                    <li class="yslugi-item">
+                        <div class="u_div2 u5 zoom-effect"> 
+                            <h3 class="u_zag">услуга4</h3>
+                        </div>
+                    </li>
+
+                    <li class="yslugi-item">
+                        <div class="u_div2 u6 zoom-effect"> 
+                            <h3 class="u_zag">услуга2</h3>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+            </div>
+        </section>
+        <section class="collectiv">
+           <div class="container div_s3">
+    <h2 class="collectiv__title" id="collectiv">Наши специалисты:</h2>
+    <div class="collectiv__d">
+        <div class="triangle">
+            <button class="triangle-left" id="btn_prev" onclick="prev()"></button>
+        </div>
+    <div class="collectiv_div photo1">
+        <img src="img/photo1.jpg" alt="" class="collectiv__img" id="first">
+        <p class="collectiv__text text1">Горина Марина Константиновна</p>
+    </div>
+    <div class="collectiv_div photo2">
+        <img src="img/photo2.jpg" alt="" class="collectiv__img" id="second">
+        <p class="collectiv__text text2">Ашкалова Дарья Павловна</p>
+    </div>
+    <div class="collectiv_div photo3">
+        <img src="img/photo3.jpg" alt="" class="collectiv__img" id="third">
+        <p class="collectiv__text text3">Конькова Мария Данииловна</p>
+    </div>
+    <div class="triangle">
+        <button class="triangle-right" id="btn_next" onclick="next()"></button>
+    </div>
+</div>
+</div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container container__contacts">
+                <h1 class="contacts__title">Контакты</h1>
+                <div class="cont__p">
+                    <p class="contacts__text">Бесплатная консультация по номеру телефона: +7(909) 755-81-81</p>
+                    <p class="contacts__text">Адрес: улица 50 лет ВЛКСМ 34/2</p>
+                </div>
+            </div>
+        </section>
+        <section class="otzivi">
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container container_footer">
+            <div class="proiv">
+                <p class="footer_P"></p>
+            </div>
+            <div class="footer_content">
+                <h2 class="footer_title"></h2>
+                <p class="footer_text"></p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="scripts/gallery.js"></script>
+    <script type="text/javascript" src="scripts/burger.js"></script>
+</body>
+</html>
